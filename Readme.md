@@ -2,20 +2,12 @@
 
 Build Restful CRUD API for a simple Note-Taking application using Spring Boot, Mysql, JPA and Hibernate.
 
-## Requirements
-
-1. Java - 1.8.x
-
-2. Maven - 3.x.x
-
-3. Mysql - 5.x.x
-
 ## Steps to Setup
 
 **1. Clone the application**
 
 ```bash
-git clone https://github.com/callicoder/spring-boot-mysql-rest-api-tutorial.git
+git clone https://github.com/likhithkp/spring-boot-mysql-rest-api-tutorial.git
 ```
 
 **2. Create Mysql database**
@@ -57,11 +49,3 @@ The app defines following CRUD APIs.
     PUT /api/notes/{noteId}
     
     DELETE /api/notes/{noteId}
-
-You can test them using postman or any other rest client.
-
-## Learn more
-
-You can find the tutorial for this application on my blog -
-
-<https://www.callicoder.com/spring-boot-rest-api-tutorial-with-mysql-jpa-hibernate/>
